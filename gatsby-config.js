@@ -7,10 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Blog blog kablog!!',
+    title: 'Full-Stack Bootcamp',
     author: 'Sammuel Espiritu'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
